@@ -1,0 +1,124 @@
+*{
+			box-sizing: border-box;
+		}
+body{
+	
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+#button{
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-right:20px;
+	margin-top: 20px;
+}
+.icon-bar:hover{
+	background-color: pink;
+}
+/**HEADER**/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 3px solid black;
+	margin-top: 0px; 
+	height: 100px;
+	padding-top: 10px; 
+
+	margin-left: 20px;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+#navbar-brand {
+	padding: 25px;
+	
+	float: left;
+
+}
+.navbar-brand h1 {
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+#p{
+	background-color: #b0c4DE;
+	padding: 5px;
+	margin: 30px;
+}
+#menu{
+	text-align: center;
+	color: red;
+}
+h2{
+	text-align: center;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #954121;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+li{
+	list-style-type: none;
+}
+a{
+    align-items: center;
+}
+@media (min-width:996 ){
+	#button{
+		display: block;
+	}
+	#collapsable-nav{
+		display: block;
+	}
+}
+@media (max-width: 995) and (min-width: 765){
+	
+
+}
+
+
